@@ -16,6 +16,12 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "MST_REQUEST")
 public class RequestDomain {
+	
+	/**
+	* RequestDomain Add
+	*
+	*/
+	
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
