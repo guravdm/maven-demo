@@ -34,7 +34,6 @@ public class RequestController {
 	private void saveDomain(@RequestBody RequestDomain rd) {
 		request.save(rd);
 	}
-	
 
 	@RequestMapping(value = "/", method = RequestMethod.GET, consumes = MediaType.APPLICATION_JSON_VALUE)
 	private String HelloWorld() {
