@@ -21,6 +21,8 @@ public class RequestDomain {
 	* RequestDomain Add
 	* Hello World!
 	* Maven Configured
+ 	* Pipeline project in jenkins
+	* branches in git
 	*
 	*/
 	
