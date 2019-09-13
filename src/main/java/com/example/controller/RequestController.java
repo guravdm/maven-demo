@@ -35,7 +35,7 @@ public class RequestController {
 		request.save(rd);
 	}
 
-	@RequestMapping(value = "/", method = RequestMethod.GET, consumes = MediaType.APPLICATION_JSON_VALUE)
+	@RequestMapping(value = "/hello", method = RequestMethod.GET)
 	private String HelloWorld() {
 		return "Hello World!";
 	}
